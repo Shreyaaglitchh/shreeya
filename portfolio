@@ -1,0 +1,854 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Shreeya KC</title>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <style>
+        body {
+            background-color: #F7F6F0;
+            color: #30352F;
+            font-family: 'Nunito', sans-serif;
+              }
+
+        h1 , h2{
+    color: #355E3B;
+    font-family: Georgia, serif;
+    text-align: center;
+    font- size: 36px;
+ margin-bottom: 20px;
+ }      
+       
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    margin: 20px 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #355E3B;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #899B84;
+}
+
+       .starts h2{
+                    font-size : 16px;
+                    color : #355E3B;
+                 }
+     .start p {
+                    text-align : center;
+                    font-size: 18px;
+                }
+        p {
+            font-size: 18px;
+    
+        }
+    .education {
+    background-color: #FFFFFF;
+    
+                       border: 1px solid #899B84;
+   
+                       border-radius: 12px;
+  
+                      padding: 18px 22px;
+   
+                      margin-bottom: 18px;
+    
+                       color: #30352F;
+   
+                      line-height: 1.7;
+
+                    }
+
+      
+.education h3 {
+    font-size: 18px;
+   
+                         margin-top: 0;
+    
+                         margin-bottom: 6px;
+ 
+                         color: #355E3B;
+                    
+}
+
+ 
+      .education p {
+   
+                      font-size: 15px;
+    
+                      margin: 4px 0;
+     
+                      color: #62685F;
+                   
+}
+
+      
+.education i {
+    
+                      color: #899B84;   
+                      margin-right: 8px;
+}
+
+       .traits {
+                  display: flex;
+                 flex-wrap: wrap;
+                gap: 10px;
+                 justify-content: center;
+               }
+
+      .traits span {
+                    color: #355E3B;
+                    border: 1px solid #899B84;
+                     border-radius: 20px;
+                    padding: 7px 14px;
+                    font-size: 14px;
+                    }
+     .tech-stack {
+                   text-align: center;
+                     margin: 30px 0;
+                 }
+
+    .tech-stack h2 {
+                     color: #355E3B;      }
+
+    .tech-items {
+                     display: flex;
+                     flex-wrap: wrap;
+                     justify-content: center;
+                     gap: 0;
+                }
+
+    .tech-items span {
+                       color: #355E3B;
+                       padding: 5px 10px;
+                     }
+
+     .tech-items span:not(:last-child)::after {
+                                                content: "|";
+                                                color: #899B84;
+                                                margin-left: 20px;
+                                              }
+
+      .work-experiences h2 { 
+                             text-align : center;
+                             color : #355E3B;
+                           }                     
+               .experience {
+                             display: flex;
+                             justify-content: center;
+                             align-items: stretch;
+                             gap: 25px;
+                             text-align: center;
+                           }
+
+              .job {
+                       flex: 1;
+                       padding: 10px;
+                   }
+
+              .job:not(:last-child) {
+                                      border-right: 1px solid #899B84;
+                                    }
+
+              .job p {
+                         color: #62685F;
+                         line-height: 1.7;
+                     }
+
+             .job p:first-child {
+                                     color: #355E3B;
+                                     font-weight: bold;
+                                 }
+             
+            .tech-sessions {
+                          margin: 35px 0;
+                         text-align: center;
+                        color: #62685F;
+                            }
+
+           .tech-sessions h2, {
+                                 color: black;                             }
+           .tech-sessions h3 {
+                                 color: #355E3B;                            }
+
+           .tech-sessions > div {
+                                   max-width: 650px;
+                                   margin: auto;
+                                   padding: 15px 10px;
+                                   border-bottom: 1px solid #899B84;
+                               }
+
+          .tech-sessions i {
+                             color: #899B84;
+                             font-size: 22px;
+                            }
+
+         .tech-sessions p {
+                              line-height: 1.6;
+                              margin: 5px 0;
+                          }
+        .Achievements h2 {
+    color: #355E3B;
+    text-align: center;
+}
+
+.Achievements {
+    text-align: center;
+}
+.Achievements h2 {
+                    color:#355E3B;
+                 }
+.achievement-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0;
+}
+
+.achievement-items span {
+    color: #62685F;
+    padding: 5px 10px;
+}
+
+.achievement-items span:not(:last-child)::after {
+    content: "|";
+    color: #899B84;
+    margin-left: 20px;
+} 
+
+
+       
+.contact {
+    text-align: center;
+    margin-top: 45px;
+    padding: 25px 10px;
+    border-top: 1px solid #899B84;
+}
+
+.contact h2 {
+    color: #355E3B;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.contact a {
+    display: inline-block;
+    color: #355E3B;
+    text-decoration: none;
+    margin: 5px 12px;
+}
+
+.contact a:hover {
+    color: #899B84;
+}
+
+.contact a i {
+    color: #355E3B;
+    margin-right: 5px;
+}
+
+.contact p {
+    color: #355E3B;
+    font-size: 13px;
+    margin-top: 20px;
+} 
+
+      .contact span a {
+                    color: #355E3B;
+                    border: 1px solid #899B84;
+                     border-radius: 20px;
+                    padding: 7px 14px;
+                    font-size: 14px;
+                    }
+   .location {
+   
+               display: flex;
+   
+               justify-content: center;
+  
+               align-items: center;
+   
+               gap: 8px;
+    
+               margin-top: 25px;
+    
+               color: #355E3B;
+             
+}
+   
+
+.location i 
+             {
+    font-size: 22px;
+
+             }
+   .location p {
+                color: #62685F;
+                margin: 0;
+               }
+  hr {
+
+           border: none;
+  
+           border-top: 1px solid #DCE4D8;
+
+         }
+       a{
+           color : #667D60;
+        }
+html {
+    scroll-behavior: smooth;
+}
+#theme-toggle {
+    background-color: white;
+    color: #355E3B;
+    border: 1px solid #899B84;
+    padding: 10px 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 15px;
+}
+body.dark-mode {
+    background-color: #171B18;
+    color: #E5E9E4;
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode p,
+body.dark-mode li {
+    color: #E5E9E4;
+}
+
+body.dark-mode .education {
+    background-color: #242B25;
+    color: #E5E9E4;
+    border-color: #627A60;
+}
+
+body.dark-mode .education h3,
+body.dark-mode .education p,
+body.dark-mode .job p,
+body.dark-mode .traits span,
+body.dark-mode .tech-items span,
+body.dark-mode .achievement-items span {
+    color: #D0DCCF;
+}
+
+body.dark-mode .tech-sessions > div {
+    border-color: #627A60;
+}
+
+body.dark-mode nav a,
+body.dark-mode .contact a {
+    color: #B6D3B2;
+}
+
+body.dark-mode .contact {
+    border-color: #627A60;
+}
+
+body.dark-mode .contact span a {
+    border-color: #627A60;
+}
+
+body.dark-mode hr {
+    border-top-color: #39483A;
+}
+
+body.dark-mode #theme-toggle {
+    background-color: #28342A;
+    color: #E5E9E4;
+    border-color: #627A60;
+}
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode p,
+body.dark-mode li {
+    color: #E5E9E4 !important;
+}
+body.dark-mode section,
+body.dark-mode header,
+body.dark-mode main,
+body.dark-mode footer {
+    background-color: #171B18 !important;
+    color: #E5E9E4 !important;
+}
+body.dark-mode a {
+    color: #B6D3B2;
+}
+body.dark-mode .contact,
+body.dark-mode .contact span a {
+    border-color: #627A60;
+}
+
+
+#theme-toggle {
+    background-color: white;
+    color: #355E3B;
+    border: 1px solid #899B84;
+    padding: 10px 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 15px;
+}
+
+#theme-toggle:hover {
+    background-color: #355E3B;
+    color: white;
+}
+
+body.dark-mode #theme-toggle {
+    background-color: #28342A;
+    color: white;
+    border-color: #899B84;
+}
+.reveal {
+    opacity: 0;
+    transform: translateY(25px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+@media (prefers-reduced-motion: reduce) {
+    .reveal {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+}
+
+
+ 
+/* Opening animation */
+nav,
+body > h1,
+.starts,
+.start {
+    animation: opening 1s ease both;
+}
+
+body > h1 {
+    animation-delay: 0.15s;
+}
+
+.starts {
+    animation-delay: 0.3s;
+}
+
+.start {
+    animation-delay: 0.45s;
+}
+
+@keyframes opening {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.reveal {
+    opacity: 0;
+    transform: translateY(35px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    nav,
+    body > h1,
+    .starts,
+    .start,
+    .reveal {
+        animation: none;
+        transition: none;
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.profile-photo {
+    width: 230px;
+    height:230px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #899B84;
+}
+
+.intro-layout {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.intro-layout p {
+                  text-align:center ;
+                  color : #465348
+                  font-family: 'Nunito', sans-serif;
+              }
+.copyright {
+    text-align: center;
+    padding: 15px 10px;
+    margin-top: 30px;
+    background-color: #F0F3EC;
+    border-top: 1px solid #899B84;
+}
+
+.copyright p {
+    color: #465348;
+    font-size: 14px;
+    margin: 0;
+}
+
+</style>
+
+</head>
+
+
+<body>
+<nav>
+
+    <a href= " #About"> About</a>
+
+    <a href="#Education"> Education </a>
+
+    <a href="#Tech-stack"> Techstack </a>
+
+    <a href="#Experience"> Experience </a>
+   
+    <a href="#sessions"> Sessions </a>
+    
+    <a href="#contact"> Contact </a>
+    <button id="theme-toggle" onclick="toggleTheme()">
+    Dark Mode
+   </button>
+
+
+</nav>
+
+    <h1>Shreeya KC </h1>
+    <h2> Student | Computer engineering </h2>
+<div class="intro-layout">
+    <p>   Hi, I'm Shreeya KC, a Computer Engineering student at Sagarmatha Engineering College, Sanepa, Lalitpur. 
+I'm passionate about technology, programming, and exploring how innovative ideas can turn into practical solutions.
+ I enjoy learning new skills, building projects, and experimenting with web development, C, C++, and emerging 
+technologies such as Artificial Intelligence and the Internet of Things (IoT). Beyond academics, 
+I'm a creative person who enjoys dancing, singing, cooking, travelling, and exploring new experiences. 
+I'm always eager to grow, challenge myself, and develop the knowledge and skills needed to create meaningful
+ things through technology.</p>
+
+    <img src="shriyi.jpeg" alt="My Photo" class="profile-photo">
+</div>
+    <hr>
+<section id = "About">
+ <h2>About me </h2>
+<div class="traits">
+
+    <span> Curious </span>
+
+    <span> Ambitious </span>
+
+    <span> Extroverted </span>
+
+    <span> Chaotic </span>
+
+    <span> Creative </span>
+
+    <span> Always Learning </span>
+
+    <span> Funny </span> 
+  
+   <span > Impatient </span>
+   
+   <span> Emotional </span>
+
+   <span> Self - aware </span> 
+   
+   <span> Determined </span> 
+ 
+  <span> Compassionate </span> 
+  <br>
+</div>
+
+</section>
+
+<hr>
+<!-- Education -->
+<section id = "Education">
+
+    <h2>Education</h2>
+
+
+    <div class="education">
+
+    <h3>
+        <i class="fa-solid fa-school"></i>
+        Cardinal International Boarding High School
+    </h3>
+
+    <p>Level: School</p>
+
+    <p>GPA: 3.85</p>
+    <p> 2079 </p>
+
+    <p> <i class = "fa-solid fa-location-dot" > </i> Satikhel , kathmandu </p>
+
+</div>
+
+    <div class="education">
+
+    <h3>
+        <i class="fa-solid fa-school"></i>
+        Omega international college </h3>
+
+    <p>Level: High School</p>
+
+    <p>GPA: 3.92 </p>
+      <p> 2080 - 2082 </p>
+
+    <p> <i class = "fa-solid fa-location-dot" > </i> Kumaripati , Lalitpur </p>
+
+</div>
+
+</div>
+
+    <div class="education">
+
+    <h3>
+        <i class="fa-solid fa-graduation-cap"></i>
+        Sagarmatha Engineering college , IOE ( TU Affiliated ) </h3>
+   <p> 2082 Batch ( undergraduated ) </p>
+
+    <p>Level: BE </p>
+
+    <p>Department of electronics and computer engineering </p>
+
+    <p> <i class = "fa-solid fa-location-dot" > </i> Sanepa, Lalitpur </p>
+
+</div>
+</section>
+    <hr>
+
+
+<section id = "Tech-stack" class="tech-stack">
+
+    <h2>Tech Stack</h2>
+
+    <div class="tech-items">
+
+        <span><i class="fa-solid fa-code"></i> C </span> 
+
+        <span> <i class="fa-solid fa-code"></i> C++ </span>
+        <span> <i class="fa-brands fa-html5"> </i> HTML </span>
+        <span> <i class="fa-brands fa-css3-alt"> </i> CSS </span>
+        <span> <i class="fa-brands fa-github"> </i> GitHub </span>
+        <span> <i class="fa-solid fa-microchip"> </i> Arduino </span>
+        <span> <i class="fa-solid fa-laptop-code"> </i> VS Code </span>
+    </div>
+</section>
+    <hr>
+</div>
+
+<section id ="Experience" class="work-experiences">
+
+         <h2>Work Experience</h2>
+         <hr>
+
+    <div class="experience">
+
+        <div class="job">
+            <p><i class="fa-solid fa-graduation-cap"></i> 
+                <br>
+                Junkiri English School</p>
+            <p><i class="fa-solid fa-location-dot"></i>
+                Bhanjyang, Kathmandu</p>
+            <p> Grade 1 - 5 (Maths and Science)</p>
+        </div>
+
+        <div class="job">
+            <p><i class="fa-solid fa-graduation-cap"></i>
+                <br>
+                Cardinal International Boarding High School</p>
+            <p><i class="fa-solid fa-location-dot"></i>
+                Satikhel, Kathmandu</p>
+            <p> Grade 3 - 5 (Assistant Teacher)</p>
+        </div>
+    </div>
+</section> 
+    <hr>
+ 
+
+<section id = "sessions" class="tech-sessions">
+    <h2>Tech-Related Sessions Attended</h2>
+
+      <div>
+        <i class="fa-solid fa-window-maximize"></i>
+        <h3> HTML , CSS , JS </h3>
+        <p> SEC </p>
+        <p> Mastered on website development </p> 
+ </div> 
+
+    <div>
+        <i class="fa-brands fa-github"></i>
+        <h3> Git and Github </h3>
+        <p> Learned on use of Git and github </p>
+    </div>
+
+    <div>
+        <i class="fa-solid fa-microchip"></i>
+        <h3> Arduino UNO </h3>
+        <p> SEISIS </p>
+        <p> Learned basics about arduino </p>
+    </div> 
+
+  <div>
+        <i class="fa-solid fa-wand-magic-sparkles"></i>
+        <h3> Prompt engineering </h3>
+        <p> COESIS </p>
+        <p> Mastered on prompt engineering </p>
+    </div>  
+
+  <div>
+        <i class="fa-solid fa-list-check"></i>
+        <h3> Project Management </h3>
+        <p> COESIS X Leapfrog </p>
+        <p> Learned about project management </p> 
+ </div> 
+ 
+
+  <div>
+        <i class="fa-solid fa-cloud"></i>
+        <h3> Cloud computing </h3>
+        <p> COESIS x KTMone </p>
+        <p> Basics on cloud computing </p> 
+ </div> 
+
+
+
+</section>
+
+<div class="Achievements">
+    <h2>Achievements</h2>
+
+    <div class="achievement-items">
+        <span>Interschool dance competition</span>
+        <span>Interschool science exhibition</span>
+        <span>Handwriting competitions</span>
+        <span>Art competitions</span>
+    </div>
+</div>
+
+
+<footer  id = "contact" class =  "contact ">
+    <h2>Let's Connect</h2>
+
+    <span> <a href="mailto:shreeyakc44@gmail.com">
+        <i class="fa-solid fa-envelope"></i> Email
+        <p> shreeyakc44@gmail.com </p>
+    </a>
+    </span>
+    
+    <span>
+    <a href= "https://github.com/Shreyaaglitchh" target="_blank">
+        <i class="fa-brands fa-github"></i> GitHub
+        <p> Shreyaaglitchh </p>
+    </a>
+    </span>
+
+    <span>   
+    <a href="https://www.linkedin.com/in/shreeya-kc-a4805441b/?isSelfProfile=true" target="_blank">
+        <i class="fa-brands fa-linkedin"></i> LinkedIn
+        <p> shreeya-kc </p>
+    </a> 
+   </span>
+
+    <span> 
+    <a href="https://www.instagram.com/shreyaaaa.70/?hl=en" target="_blank">
+        <i class="fa-brands fa-instagram"></i> Instagram
+        <p> shreyaaaa.70</p>
+    </a>
+    </span> 
+  
+  <div class="location"> 
+  <i class="fa-solid fa-location-dot"></i> 
+  <p> Daksinkali-7 , kathmandu </p>
+ </div>
+    
+</footer>
+
+
+<script>
+function toggleTheme() {
+    document.body.classList.toggle("dark-mode");
+
+    const button = document.getElementById("theme-toggle");
+
+    if (document.body.classList.contains("dark-mode")) {
+        button.textContent = "Light Mode";
+    } else {
+        button.textContent = "Dark Mode";
+    }
+}
+
+</script>
+
+
+<script>
+const sectionsToAnimate = document.querySelectorAll(
+    "#About, #Education, #Tech-stack, #Experience, #sessions, .Achievements, .contact"
+);
+
+const sectionObserver = new IntersectionObserver(
+    function(entries) {
+        entries.forEach(function(entry) {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("visible");
+                sectionObserver.unobserve(entry.target);
+            }
+        });
+    },
+    {
+        threshold: 0.15
+    }
+);
+
+sectionsToAnimate.forEach(function(section) {
+    section.classList.add("reveal");
+    sectionObserver.observe(section);
+});
+</script>
+
+<footer class="copyright">
+    <p>&copy; 2026 Shreeya KC. All rights reserved.</p>
+</footer>
+
+
+</body>
+</html>
+
